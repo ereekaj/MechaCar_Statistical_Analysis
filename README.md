@@ -28,6 +28,6 @@ Below is a screenshot of the Total Summary dataframe.
 From this screenshot, you can see that the variance for all manufacturing lots is 63.29. This is below the requirement design specification of 100.  
 
 Below is a screenshot of the Lot Summary datafram. 
-! [screenshot of lot summary](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_lot_summary.png)
+![screenshot of lot summary](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_lot_summary.png)
 
 From this screenshot, you that the variance for the different manufacturing lots varies from 0.98 to 170. Lot 3 has a variance of 170 which is well above the design specification.  Lot 1, Lot 2 and manufacturing lots in total meet the design specs; however, Lot 3 does not meet the design specs.
