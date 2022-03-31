@@ -18,3 +18,16 @@ If the slope of the model is zero, then that means there is no significant relat
 
 This model does not predict mpg effectively in my opinion because it uses variables with p-values that are much lower than a normal significance level.  I think the model would be improved by only using the variables with p-values above the normal significance level.
 
+## Summary Statistics on Suspension Coils
+
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+Below is a screenshot of the Total Summary dataframe. 
+![screenshot of total summary](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_total_summary.png)
+
+From this screenshot, you can see that the variance for all manufacturing lots is 63.29. This is below the requirement design specification of 100.  
+
+Below is a screenshot of the Lot Summary datafram. 
+! [screenshot of lot summary](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_lot_summary.png)
+
+From this screenshot, you that the variance for the different manufacturing lots varies from 0.98 to 170. Lot 3 has a variance of 170 which is well above the design specification.  Lot 1, Lot 2 and manufacturing lots in total meet the design specs; however, Lot 3 does not meet the design specs.
