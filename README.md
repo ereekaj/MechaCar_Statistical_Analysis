@@ -47,3 +47,16 @@ For Lot1, the mean is 1500 and the same as the population mean.  Not surprisingl
 For Lot2, the mean is 1500.2. The t-test shows a p-value of 0.6 which is also well above the significance level.  For Lot2, we also can't reject the null hypothesis.
 
 Lot3 is a different story. For Lot3, the mean is 1496.14. The t-test shows a p-value of 0.042 which is below a normal significance level of 0.05.  Therefore we can reject the null hypotheses and accept the alternative hypotheses that there is a statistical difference between the Lot3 sample mean and the population mean.  
+
+## Study Design: MechaCar vs Competition
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+More and more people are concerned with climate change these days. Fuel efficiency has become more and more important to consumers.  To quantify how MechaCar compares to the competition, I would look at overall mpg, and city and highway mpg for each brand. 
+
+The null hypothesis would be that there is no statistical difference between MechaCar mpgs and a competitor mpgs. The alternative hypothesis would be that there is a statistical difference between MechaCar and the competitor mpgs. I would use a two sample t-Test to compare the MechaCar mpgs with a competitor. I would use this statistical test because the data is numerical and continuous. 
+
+I would need the following data to run the t-test:
+- mpg data on MechaCar vehicles
+- mpg data on various competitors
+
