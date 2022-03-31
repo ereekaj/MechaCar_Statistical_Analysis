@@ -27,7 +27,23 @@ Below is a screenshot of the Total Summary dataframe.
 
 From this screenshot, you can see that the variance for all manufacturing lots is 63.29. This is below the requirement design specification of 100.  
 
-Below is a screenshot of the Lot Summary datafram. 
+Below is a screenshot of the Lot Summary dataframe. 
 ![screenshot of lot summary](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_lot_summary.png)
 
 From this screenshot, you that the variance for the different manufacturing lots varies from 0.98 to 170. Lot 3 has a variance of 170 which is well above the design specification.  Lot 1, Lot 2 and manufacturing lots in total meet the design specs; however, Lot 3 does not meet the design specs.
+
+## T-Tests on Suspension Coils
+
+Below is a screenshot of the t-test across all manufacturing lots. 
+![screenshot of ttest all manufacturing lots](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_ttestALL.png)
+
+The mean for all the manufacturing lots is 1498.78.  The t-test shows a p-value of 0.06. If we are using a normal significance level of 0.05, then the p-value for all the manufacturing lots is above the significance level. Therefore, we do not have enough evidence to reject the null hypotheses that there is no statistical difference between the observed sample mean and the population mean. 
+
+Below is a screenshot of the t-test each manufacturing lot. 
+![screenshot of ttest each manufacturing lot](https://github.com/ereekaj/MechaCar_Statistical_Analysis/blob/main/Resources/screenshot_ttest_by_lot.png)
+
+For Lot1, the mean is 1500 and the same as the population mean.  Not surprisingly, the t-test shows a p-value of 1 which is well above the significance level.  For Lot1, we can't reject the null hypothesis. 
+
+For Lot2, the mean is 1500.2. The t-test shows a p-value of 0.6 which is also well above the significance level.  For Lot2, we also can't reject the null hypothesis.
+
+Lot3 is a different story. For Lot3, the mean is 1496.14. The t-test shows a p-value of 0.042 which is below a normal significance level of 0.05.  Therefore we can reject the null hypotheses and accept the alternative hypotheses that there is a statistical difference between the Lot3 sample mean and the population mean.  
